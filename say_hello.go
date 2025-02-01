@@ -1,5 +1,5 @@
 package mymodule
 
-func SayHello() string {
-	return "Hello World LOKALLLL"
+func SayHello(name string) string {
+	return "Hello World LOKALLLL" + name
 }
